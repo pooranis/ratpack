@@ -33,7 +33,7 @@ symlink_packages <- function(){
   }
 
   target_lib<-
-    getPackratLibDir(projDir = .rs.getProjectDirectory())
+    getPackratLibDir(projDir = packrat::project_dir())
 
   user_packages <- get_user_packages()
 
